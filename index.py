@@ -398,3 +398,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+    print("PRESSIONE QUALQUER TECLA PARA SAIR")
+    exit = input()
+    if(exit):
+        os.system("exit")
